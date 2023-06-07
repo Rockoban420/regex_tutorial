@@ -43,11 +43,13 @@ We use these to group the whole expression together so that the quantifiers appl
 
 ### Bracket Expressions
 
-Bracket expressions are used to match any one character in a set of characters. The brackets `[]` are used to match any one character in a set of characters. The caret `^` is used to match any character not in the set of characters. The dash `-` is used to match a range of characters. The backslash `\` is used to escape characters that would otherwise be treated as operators.
+Bracket expressions are used to match any one character in a set of characters. The brackets `[]` are used to match any one character in a set of characters. The dash `-` is used to match a range of characters.
+
+We're using the brackets to contain the different sections of the email address and we use the dash inside of the brackets to set a range of characters.
 
 ### Character Classes
 
-Character classes are used to match any one character in a set of characters. The dot `.` is used to match any character except for line terminators. The backslash `\` is used to escape characters that would otherwise be treated as operators. The caret `^` is used to match any character not in the set of characters. The dash `-` is used to match a range of characters. The backslash `\` is used to escape characters that would otherwise be treated as operators.
+Character classes are used to match any one character in a set of characters. For example we use /w to match any word character. /d to match any digit character. /s to match any whitespace character. /W to match any non-word character. /D to match any non-digit character. /S to match any non-whitespace character.
 
 ### The OR Operator
 
@@ -63,4 +65,4 @@ Character escapes are used to escape characters that would otherwise be treated 
 
 ## Author
 
-A short section about the author with a link to the author's GitHub profile (replace with your information and a link to your profile)
+I am Lautaro Avellaneda and I am a Full Stack Web Developer. I am currently enrolled in the University of Berkeley Coding Bootcamp. I am currently learning noSQL with mongoDB and I am looking for a job in the field. If you would like to contact me, you can reach me at lautaro.avellaneda@gmail.com and the link to my github is https://github.com/Rockoban420 thank you
